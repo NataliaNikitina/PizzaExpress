@@ -12,6 +12,8 @@ class TrackListViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.rowHeight = 80
+        navigationItem.leftBarButtonItem    
     }
 
     // MARK: - Table view data source
@@ -26,18 +28,22 @@ class TrackListViewController: UITableViewController {
         content.text = track.pizza
         content.secondaryText = track.sostav
         content.image = UIImage(named: track.title)
+        content.imageProperties.cornerRadius = tableView.rowHeight * 0.1
         cell.contentConfiguration = content
         return cell
     }
 
-    // MARK: - Navigation
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        80
-    }
+  //  // MARK: - Navigation
+  //  override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+  //      80
+  // }
 
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailsVC = segue.destination as? DetailsViewController else { return }
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        detailsVC.track = trackList[indexPath.row]
         
     }
     

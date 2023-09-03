@@ -14,6 +14,7 @@
 		61BF74A92AA4C5FA007095D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BF74A72AA4C5FA007095D4 /* LaunchScreen.storyboard */; };
 		61BF74B12AA4E398007095D4 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF74B02AA4E398007095D4 /* TrackListViewController.swift */; };
 		61BF74B32AA4EA00007095D4 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF74B22AA4EA00007095D4 /* Track.swift */; };
+		61BF74B52AA50AD5007095D4 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BF74B42AA50AD5007095D4 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		61BF74AA2AA4C5FA007095D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61BF74B02AA4E398007095D4 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		61BF74B22AA4EA00007095D4 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		61BF74B42AA50AD5007095D4 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				61BF749E2AA4C5F2007095D4 /* SceneDelegate.swift */,
 				61BF74A22AA4C5F2007095D4 /* Main.storyboard */,
 				61BF74B02AA4E398007095D4 /* TrackListViewController.swift */,
+				61BF74B42AA50AD5007095D4 /* DetailsViewController.swift */,
 				61BF74B22AA4EA00007095D4 /* Track.swift */,
 				61BF74A52AA4C5FA007095D4 /* Assets.xcassets */,
 				61BF74A72AA4C5FA007095D4 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				61BF749F2AA4C5F2007095D4 /* SceneDelegate.swift in Sources */,
 				61BF74B12AA4E398007095D4 /* TrackListViewController.swift in Sources */,
 				61BF74B32AA4EA00007095D4 /* Track.swift in Sources */,
+				61BF74B52AA50AD5007095D4 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
