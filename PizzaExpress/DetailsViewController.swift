@@ -11,6 +11,7 @@ class DetailsViewController: UIViewController {
 
     @IBOutlet var artCoverImageView: UIImageView!
     @IBOutlet var pizzaSostavLabel: UILabel!
+    @IBOutlet var pizzaAboutLabel: UILabel!
     
     var track: Track!
     
@@ -18,6 +19,7 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
         artCoverImageView.image = UIImage(named: track.title)
         pizzaSostavLabel.text = track.title
+        pizzaAboutLabel.text = track.about
        
     }
     
